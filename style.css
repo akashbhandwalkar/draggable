@@ -1,0 +1,51 @@
+
+body {
+    background-color: #00bcd4;
+
+}
+.dragable {
+    display: flex;
+    margin: 100px;
+}
+.dragable-grid  {
+    max-width: 200px;
+    min-width: 200px;
+    padding: 20px;
+    box-shadow: -2px 2px -2px white;
+    margin: 0 40px;
+    background-color: #DEDFDF;   
+}
+
+.issue {
+    border-top: 3px solid #287BA9;
+    background-color: white;
+    font-family: sans-serif;
+    box-shadow: 3px 3px 3px lightsteelblue;
+   margin: 20px 0;
+   cursor: pointer;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 10px 0;
+    background-color: #DEDFDF;
+    padding: 5px;
+}
+
+.title {
+    padding: 20px;
+}
+
+.dragable-lables {
+    display: flex;
+    margin: 100px 0 -50px 100px;
+}
+.labels {
+    width: 350px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.completed .issue .createdAt {
+    text-decoration: line-through;
+}

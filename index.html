@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Draggable </title>
+    <link href="style.css" rel="stylesheet"></link>
+</head>
+<body>
+    <div class="container">
+        <div class="dragable-lables">
+            <div class="labels">TODO</div>
+            <div class="labels">IN PROGRESS</div>
+            <div class="labels">READY FOR QA</div>
+            <div class="labels">DONE</div>
+        </div>
+        <div class="dragable">
+            <div class="dragable-grid one dropzone">
+                <div class="issue" draggable="true">
+                    <div class="top">
+                        <div class="createdAt"> TASK-1</div>
+                        <div class="priority"> HIGH </div>
+                    </div>
+                    <div class="title">
+                        UI aligmenent breaks
+                    </div>
+                </div>
+                <div class="issue" draggable="true">
+                    <div class="top">
+                        <div class="createdAt"> TASK-2</div>
+                        <div class="priority"> HIGH </div>
+                    </div>
+                    <div class="title">
+                        UI aligmenent breaks
+                    </div>
+                </div>
+                <div class="issue" draggable="true">
+                    <div class="top">
+                        <div class="createdAt"> TASK-3</div>
+                        <div class="priority"> HIGH </div>
+                    </div>
+                    <div class="title">
+                        UI aligmenent breaks
+                    </div>
+                </div>
+                <div class="issue" draggable="true">
+                    <div class="top">
+                        <div class="createdAt"> TASK-4</div>
+                        <div class="priority"> HIGH </div>
+                    </div>
+                    <div class="title">
+                        UI aligmenent breaks
+                    </div>
+                </div>
+            </div>
+            <div class="dragable-grid two dropzone" id="dropzone"></div>
+            <div class="dragable-grid two dropzone" id="dropzone"></div>
+            <div class="dragable-grid two dropzone completed" id="dropzone"></div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
